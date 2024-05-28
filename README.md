@@ -23,71 +23,67 @@ AWS Kinesis monitoring encompasses several specialized services, each targeting 
 
 1. Kinesis Data Streams
     * Description: Manages the ingestion and processing of real-time data streams.
-    * Source: [../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt](../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt)
+    
 2. Shard Management
     * Description: Manages the shards within a Kinesis stream, including their creation, deletion, and scaling.
-    * Source: [../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt](../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt)
+    
 3. Data Ingestion
     * Description: Handles the ingestion of data into Kinesis streams.
-    * Source: [../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt](../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt)
+    
 4. Data Processing
     * Description: Processes the ingested data and prepares it for downstream applications.
-    * Source: [../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt](../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt)
+    
 5. Latency Management
     * Description: Monitors and manages the end-to-end latency of data processing within Kinesis.
-    * Source: [../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt](../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt)
-6. Error Handling
-    * Description: Monitors and manages errors during data ingestion and processing.
-    * Source: [../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt](../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt)
-
+    
 ### KPIs
 Each service utilizes specific KPIs to measure its effectiveness:
 
 1. Kinesis Data Streams
     * Description: Manages the ingestion and processing of real-time data streams.
-    * Source: [../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt](../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt)
+    
 2. Shard Count
     * Description: Number of active shards in the stream.
-    * Source: [../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt](../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt)
+    
 3. Shard Read Throughput
     * Description: Read throughput per shard.
-    * Source: [../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt](../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt)
+    
 4. Shard Write Throughput
     * Description: Write throughput per shard.
-    * Source: [../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt](../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt)
+    
 5. Incoming Records
     * Description: Number of records being ingested into the Kinesis stream.
-    * Source: [../../itsi-docs-library/aws-kinesis/files/Search_name_length.txt](../../itsi-docs-library/aws-kinesis/files/Search_name_length.txt)
+    
 6. Incoming Bytes
     * Description: Number of bytes being ingested per second.
-    * Source: [../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt](../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt)
+    
 7. Throttled Records
     * Description: Number of records throttled during ingestion.
-    * Source: [../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt](../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt)
+    
 8. Processed Records
     * Description: Number of records processed.
-    * Source: [../../itsi-docs-library/aws-kinesis/files/Search_name_length.txt](../../itsi-docs-library/aws-kinesis/files/Search_name_length.txt)
+    
 9. Processing Latency
     * Description: Time taken to process data.
-    * Source: [../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt](../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt)
+    
 10. Processing Errors
     * Description: Number of errors encountered during processing.
-    * Source: [../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt](../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt)
+    
 11. End-to-End Latency
     * Description: Total time from data ingestion to processing completion.
-    * Source: [../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt](../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt)
+    
 12. Iterator Age
     * Description: Age of the oldest record in the stream.
-    * Source: [../../itsi-docs-library/aws-kinesis/files/Search_name_length.txt](../../itsi-docs-library/aws-kinesis/files/Search_name_length.txt)
+    
 13. Ingestion Errors
     * Description: Number of errors during data ingestion.
-    * Source: [../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt](../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt)
+    
 14. Processing Errors
     * Description: Number of errors during data processing.
-    * Source: [../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt](../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt)
+    
 15. Throttled Requests
     * Description: Number of requests throttled due to errors.
-    * Source: [../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt](../../itsi-docs-library/aws-kinesis/files/special-chars-in-key-name.txt)
+    
 
 ### Relationships
 #### Dependencies: 
@@ -126,7 +122,7 @@ For more information about Kinney Group's Splunk Products, visit our [website](h
 
 | Version | Date  | Description                |
 |---------|-------|----------------------------|
-| -.-.-   | -/-/- | Initial Preview Release    |
+| 0.0.1   | 05/28/24 | Initial Preview Release    |
 
 ## Considerations:
 

@@ -5,8 +5,7 @@
         "da-itsi-cp-atlas-aws-kinesisshard-management.json",
         "da-itsi-cp-atlas-aws-kinesisdata-ingestion.json",
         "da-itsi-cp-atlas-aws-kinesisdata-processing.json",
-        "da-itsi-cp-atlas-aws-kinesislatency-management.json",
-        "da-itsi-cp-atlas-aws-kinesiserror-handling.json"
+        "da-itsi-cp-atlas-aws-kinesislatency-management.json"
     ],
     "kpi_base_searches": []
 }
